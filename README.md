@@ -2,8 +2,9 @@
 
 **A. Project Overview**
 
-This project analyzes the sales, rent, profit, occupancy rate and other ratio for an convenience storechain using Python Power BI. The focus is on identifying operational gaps, uncovering opportunities for optimization and providing insights for future guidelines.
-For this project, the company strategy is prioritize development in adjacent or secondary cities to diversify beyond the saturated major hubs.
+- This project analyzes the sales, rent, profit, occupancy rate and other ratio for an convenience storechain using Python Power BI.
+- The focus is on identifying operational gaps, uncovering opportunities for optimization and providing insights for future guidelines.
+- For this project, the company strategy is prioritize development in adjacent or secondary cities to diversify beyond the saturated major hubs.
 
 **B. Dataset Information**
 
