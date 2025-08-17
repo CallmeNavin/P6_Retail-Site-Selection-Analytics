@@ -2,11 +2,8 @@
 
 **A. Project Overview**
 
-This project analyzes the sales, profit and occupancy rate for an convenience storechain using Power BI. The focus is on identifying hols operational gaps, uncovering opportunities for optimization and providing insights to guide future performance forecasting.
+This project analyzes the sales, rent, profit, occupancy rate and other ratio for an convenience storechain using Python Power BI. The focus is on identifying operational gaps, uncovering opportunities for optimization and providing insights for future guidelines.
 For this project, the company strategy is prioritize development in adjacent or secondary cities to diversify beyond the saturated major hubs.
-The outputs include: 
-- A multi-page, interactive Power BI Dashboard.
-- A set of in-depth analyses and actionable recommendations for business improvement.
 
 **B. Dataset Information**
 
@@ -22,26 +19,21 @@ The outputs include:
 
 **C. Methodoly**
 
-**D. Dashboard Structure & Key Insight**
+Data cleaning → descriptive analysis → segmentation & KPI metrics → actionable insights.
+
+**D. Dashboard Structure, Key Findings and Actionable Insights**
 
 **I. Overview**
 
-**_Key Findings_**
-
 - Strong Revenue vs Rent: Monthly Average Rent is 92.8M VND, while Monthly Average Sales reach 750.64M VND → Profit margin before other expenses: 657.84M VND → strong performance overall.
-- Low Occupancy Rate: Average Occupancy Rate is 64.27% → locations are only moderately attractive to customers → still need to identify more bustling areas to boost natural foot traffic.
 - Adequate Store Size: Average Store Area is 87.53 m² → suitable for convenience store operations.
-- Healthy Average Rent-to-Sales Ratio: Overall ratio is 12.36%, within the industry benchmark (≤ 15%).
-  However, 2 specific stores (Active/Potential) show extremely high ratios of 65.56% and 79.73% → high-risk locations. If other operating costs are considered, these stores have a high potential for deficit.
+- 2 specific stores (Active/Potential) show extremely high ratios of 65.56% and 79.73% → high-risk locations. If other operating costs are considered, these stores have a high potential for deficit.
+- Healthy Average Rent-to-Sales Ratio: Overall ratio is 15.24%, exceed the industry benchmark (≤ 15%) → There is 01 case (Store S0123) which has too-high Rent-to-Sales Ratio (126.79%), influenced the overall Average Rent-to-Sales ratio → Flagged for Closure
+- Low Occupancy Rate: Average Occupancy Rate is 64.27% → Optimize immediately by creating decision matrix to identify site for expansion and store optimization.
 
-**_Actionable Insights_**
+**II. Findings by Business Theme**
 
-- Immediate Priority – Increase Occupancy Rate: Target short-term initiatives to move closer to or above the 85% benchmark by prioritizing locations in high-density, high-foot-traffic areas.
-- Address High-Risk Stores: For the 2 stores with 65.56% and 79.73% Rent-to-Sales Ratio → initiate rent reduction negotiations or consider early closure if sales do not improve.
-- Deeper Profitability Analysis: Current profit margin excludes labor, utilities, and service costs. A deeper cost analysis is needed to understand the net profitability.
-- Dedicated High-Risk Analysis Page: Create a separate page in the dashboard to monitor, analyze, and track action plans for high-risk stores.
-
-**II. Store Information**
+**1. Site Expansion**
 
 _**Key Findings**_
 
@@ -65,9 +57,11 @@ _**Actionable Insights**_
 - Using the Site Expansion Decision Matrix and Priority Level (for more details: "Appendix" section): Da Nang emerges as both “Pilot” and “Strong” candidate.
 - Decision: Prioritize Da Nang for the next expansion.
 
+**2. Current Store Optimization**
+
 _**Key Findings**_
 
-- ~85% of stores need restructuring (Optimize/Close)
+- ~85% of stores need restructuring (Optimize/Close). The two stores initially flagged with abnormally high rent-to-sales ratios (65.56% and 79.73%) were later included in the optimization/removal list.
 
 **_Actionable Insights_**
 
@@ -75,7 +69,16 @@ _**Key Findings**_
 - Optimize: Improve 94 stores via cost control, rent renegotiation, and CX upgrades.
 - Keep: Protect 38 top stores.
 
-**III. Appendix**
+**III. Roadmap & Guidelines** 
+
+Based on Decision List in Current Store Optimization section,
+- Short-term: Consider to close weak stores.
+  For stores in close list: Store managers report local issues → attempt lease renegotiation → if no improvement → proceed with closure.
+- Long-term: Optimize current store & consider to open new store in DaNang province.
+  Optimize Current Store: Ops team assess causes (traffic, SKU, staffing) → apply targeted fixes (SKU mix, layout, training, campaigns).
+  Expand to DaNang province: Validate shortlisted sites with local manager input → pilot 2–3 sites with rent & sales projection before rollout.
+
+**E. Appendix**
 
 **1. Site Expansion Decision Matrix**
 
@@ -168,10 +171,10 @@ After positioning a store in the ROI × RTSr, apply Lease Date:
 - Medium: Keep.
 - Long: Upgrade by 1 Priority level.
 
-_**About Me**_
+_**F. About Me**_
 
-Hi, I'm Navin – an aspiring Data Analyst passionate about turning raw data into actionable business insights. 
-Follow me at:
+Hi, I'm Navin (Bao Vy) – an aspiring Data Analyst passionate about turning raw data into actionable business insights. 
+For more details, please reach out at:
 
 🌐 LinkedIn: https://www.linkedin.com/in/navin826/
 
