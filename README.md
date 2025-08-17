@@ -6,6 +6,8 @@
 - The focus is on identifying operational gaps, uncovering opportunities for optimization and providing insights for future guidelines.
 - For this project, the company strategy is prioritize development in adjacent or secondary cities to diversify beyond the saturated major hubs.
 
+![Dashboard Overview](Overview.png)
+
 **B. Dataset Information**
 
 **Source**
@@ -43,20 +45,20 @@ _**Key Findings**_
 - Competition (Competitor Count): Fewest competitors in Can Tho (5.27%), Hai Phong (6.22%), and Da Nang (7.8%).
 - Demand (Foot Traffic per Day): Lowest traffic in Can Tho (5.47%), Hai Phong (6.26%), and Da Nang (8.47%).
 - Financial Performance Simulation:
-  Assumed Operating Expense = 20% of Monthly Sales (industry-safe benchmark).
-  Net Profit = Monthly Sales – Rent – Operating Expense.
-  ROI = Net Profit ÷ Rent.
-  Results:
-  Highest profit (absolute): HCMC & Hanoi.
-  Highest efficiency (ROI): Da Nang (854.07%), Can Tho (818.71%), Hai Phong (645.74%) – ~1.5x higher than HCMC & Hanoi.
+  + Assumed Operating Expense = 20% of Monthly Sales (industry-safe benchmark).
+  + Net Profit = Monthly Sales – Rent – Operating Expense.
+  + ROI = Net Profit ÷ Rent.
+  + Results:
+    Highest profit (absolute): HCMC & Hanoi.
+    Highest efficiency (ROI): Da Nang (854.07%), Can Tho (818.71%), Hai Phong (645.74%) – ~1.5x higher than HCMC & Hanoi.
 
 _**Actionable Plans**_
 
 - Trade-off identified:
-  Big cities (HCMC & Hanoi) → Higher profit volume, but lower ROI (efficiency).
-  Smaller cities (Da Nang, Can Tho, Hai Phong) → Lower absolute profit, but much higher ROI, making capital deployment more efficient.
-- Using the Site Expansion Decision Matrix and Priority Level (for more details: "Appendix" section): Da Nang emerges as both “Pilot” and “Strong” candidate.
-- Decision: Prioritize Da Nang for the next expansion.
+  + Big cities (HCMC & Hanoi) → Higher profit volume, but lower ROI (efficiency).
+  + Smaller cities (Da Nang, Can Tho, Hai Phong) → Lower absolute profit, but much higher ROI, making capital deployment more efficient.
+  + Using the Site Expansion Decision Matrix and Priority Level (for more details: "Appendix" section): Da Nang emerges as both “Pilot” and “Strong” candidate.
+  + Decision: Prioritize Da Nang for the next expansion.
 
 **2. Current Store Optimization**
 
@@ -74,10 +76,10 @@ _**Key Findings**_
 
 Based on Decision List in Current Store Optimization section,
 - Short-term: Consider to close weak stores.
-  For stores in close list: Store managers report local issues → attempt lease renegotiation → if no improvement → proceed with closure.
+  + For stores in close list: Store managers report local issues → attempt lease renegotiation → if no improvement → proceed with closure.
 - Long-term: Optimize current store & consider to open new store in DaNang province.
-  Optimize Current Store: Ops team assess causes (traffic, SKU, staffing) → apply targeted fixes (SKU mix, layout, training, campaigns).
-  Expand to DaNang province: Validate shortlisted sites with local manager input → pilot 2–3 sites with rent & sales projection before rollout.
+  + Optimize Current Store: Ops team assess causes (traffic, SKU, staffing) → apply targeted fixes (SKU mix, layout, training, campaigns).
+  + Expand to DaNang province: Validate shortlisted sites with local manager input → pilot 2–3 sites with rent & sales projection before rollout.
 
 **E. Appendix**
 
