@@ -7,6 +7,7 @@
 - For this project, the company strategy is prioritize development in adjacent or secondary cities to diversify beyond the saturated major hubs.
 
 ![Dashboard Overview](Overview.png)
+_Explore more insights in the full Power BI dashboard_
 
 **B. Dataset Information**
 
