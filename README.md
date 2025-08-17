@@ -177,7 +177,8 @@ After positioning a store in the ROI × RTSr, apply Lease Date:
 
 _**F. About Me**_
 
-Hi, I'm Navin (Bao Vy) – an aspiring Data Analyst passionate about turning raw data into actionable business insights. 
+Hi, I'm Navin (Bao Vy) – an aspiring Data Analyst passionate about turning raw data into actionable business insights.
+I’m eager to contribute to data-driven decision making and help organizations translate analytics into business impact.
 For more details, please reach out at:
 
 🌐 LinkedIn: https://www.linkedin.com/in/navin826/
