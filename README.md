@@ -22,7 +22,7 @@
 
 Data cleaning → descriptive analysis → segmentation & KPI metrics → actionable insights.
 
-**D. Key Findings and Actionable Insights**
+**D. Key Findings and Actionable Plans**
 
 **I. Overview**
 
@@ -50,7 +50,7 @@ _**Key Findings**_
   Highest profit (absolute): HCMC & Hanoi.
   Highest efficiency (ROI): Da Nang (854.07%), Can Tho (818.71%), Hai Phong (645.74%) – ~1.5x higher than HCMC & Hanoi.
 
-_**Actionable Insights**_
+_**Actionable Plans**_
 
 - Trade-off identified:
   Big cities (HCMC & Hanoi) → Higher profit volume, but lower ROI (efficiency).
@@ -64,7 +64,7 @@ _**Key Findings**_
 
 - ~85% of stores need restructuring (Optimize/Close). The two stores initially flagged with abnormally high rent-to-sales ratios (65.56% and 79.73%) were later included in the optimization/removal list.
 
-**_Actionable Insights_**
+**_Actionable Plans_**
 
 - Close: Exit 127 stores to cut costs.
 - Optimize: Improve 94 stores via cost control, rent renegotiation, and CX upgrades.
