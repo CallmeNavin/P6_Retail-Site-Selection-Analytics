@@ -22,7 +22,7 @@
 
 Data cleaning → descriptive analysis → segmentation & KPI metrics → actionable insights.
 
-**D. Dashboard Structure, Key Findings and Actionable Insights**
+**D. Key Findings and Actionable Insights**
 
 **I. Overview**
 
