@@ -8,7 +8,7 @@
 - The focus is on identifying operational gaps, uncovering opportunities for optimization and providing insights for future guidelines.
 - For this project, the company strategy is prioritize development in adjacent or secondary cities to diversify beyond the saturated major hubs.
 
-![Dashboard Overview](Overview.png)
+![Dashboard Overview](https://github.com/CallmeNavin/P6_Retail-Site-Selection-Analytics/blob/main/Version%201/Visualization/Overview.png)
 _Explore more insights in the full Power BI dashboard_
 
 **B. Dataset Information**
@@ -266,7 +266,11 @@ _**III. Random Forest – Feature Importances**_
 | Rent_per_sqm            |                      | 0.520                 |
 | Lease_Term              |                      | 0.020                 |
 
-_**F. About Me**_
+**E. Further Version**
+
+- In further version, I will used another dataset to apply the model I trained in version 2 to predict future ROI for each site.
+
+_**About Me**_
 
 Hi, I'm Navin (Bao Vy) – an aspiring Data Analyst passionate about turning raw data into actionable business insights.
 I’m eager to contribute to data-driven decision making and help organizations translate analytics into business impact.
