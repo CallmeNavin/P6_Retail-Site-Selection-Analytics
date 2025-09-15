@@ -270,7 +270,8 @@ _**III. Random Forest – Feature Importances**_
 
 **A. Project Overview**
 
-- In this version, I will used another dataset to apply the model I trained in version 2 to predict future ROI for each site.
+- In this version, I used a new dataset to apply the best-performing model from Version 2.
+- The goal was to simulate a real deployment scenario where the input dataset does not perfectly match the training dataset schema.
 
 **B. Dataset Information**
 
@@ -287,21 +288,33 @@ _**III. Random Forest – Feature Importances**_
 
 Column Mapping (New Dataset → Old Dataset)
 - State → City.
-- Sales, Profit, Margin, Total Expenses → ROI, Profit Margin:
+- ROI → Sales, Profit, Margin, Total Expenses:
   + ROI = Profit / Total Expenses.
-  + Profit Margin = Profit / Sales.
 - Date → Lease Term:
   + Lease_Term = (Reference Date – Date). Reference Date: 01/01/2025
-- COGS, Marketing, Inventory, Budget Profit, Budget COGS, Budget Margin, Budget Sales, ProductId → Additional Variables:
-  + These variables do not exist in the old dataset but will be included as additional features, allowing the model to capture more business dynamics and potentially improve predictive accuracy.
 
 **C. Methodoly**
 
-- 
+- Calculate new columns or generate values (by mean) if raw data was missing.
+- Drop irrelevant columns.
+- Reuse the trained Scaler from Version 2.
+- Load the best model from Version 2 (Random Forest Regressor).
+- Predict ROI and evaluate results.
+- Export predictive ROI data.
 
-**D. Results**
+**D. Results & Findings**
 
-- 
+**_Results_**
+Deployment pipeline was successful: the Version 2 model was applied to the new dataset by aligning features, reusing the scaler, and generating ROI predictions.
+- R²: -36.05  
+- MAE: 8.21  
+- RMSE: 8.63  
+
+
+**_Findings_**
+- High MAE & RMSE, with R² < 0 → the model performed worse than a naive baseline.  
+- The main reasons: missing critical features (e.g., Foot Traffic, Occupancy), inconsistent Lease_Term distribution, and schema mismatch.  
+→ ML models cannot be directly deployed to new datasets if feature distributions differ. Data pipelines must ensure feature consistency, and new features should trigger retraining. Without standardized data collection, ROI predictions become unreliable, leading to risky decisions.  
 
 _**About Me**_
 
