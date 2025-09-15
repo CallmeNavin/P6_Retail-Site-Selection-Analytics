@@ -266,9 +266,42 @@ _**III. Random Forest – Feature Importances**_
 | Rent_per_sqm            |                      | 0.520                 |
 | Lease_Term              |                      | 0.020                 |
 
-**E. Further Version**
+**VERSION 3 - DEPLOY MODEL**
 
-- In further version, I will used another dataset to apply the model I trained in version 2 to predict future ROI for each site.
+**A. Project Overview**
+
+- In this version, I will used another dataset to apply the model I trained in version 2 to predict future ROI for each site.
+
+**B. Dataset Information**
+
+**Source**
+
+- US Stores Sales
+- https://www.kaggle.com/datasets/dsfelix/us-stores-sales
+
+**Period**
+
+- Jan 2010 - Dec 2011
+
+**Assumption**
+
+Column Mapping (New Dataset → Old Dataset)
+- State → City.
+- Sales, Profit, Margin, Total Expenses → ROI, Profit Margin:
+  + ROI = Profit / Total Expenses.
+  + Profit Margin = Profit / Sales.
+- Date → Lease Term:
+  + Lease_Term = (Reference Date – Date). Reference Date: 01/01/2025
+- COGS, Marketing, Inventory, Budget Profit, Budget COGS, Budget Margin, Budget Sales, ProductId → Additional Variables:
+  + These variables do not exist in the old dataset but will be included as additional features, allowing the model to capture more business dynamics and potentially improve predictive accuracy.
+
+**C. Methodoly**
+
+- 
+
+**D. Results**
+
+- 
 
 _**About Me**_
 
