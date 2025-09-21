@@ -8,7 +8,8 @@
 - The focus is on identifying operational gaps, uncovering opportunities for optimization and providing insights for future guidelines.
 - For this project, the company strategy is prioritize development in adjacent or secondary cities to diversify beyond the saturated major hubs.
 
-![Dashboard Overview](https://github.com/CallmeNavin/P6_Retail-Site-Selection-Analytics/blob/main/Version%201/Visualization/Overview.png)
+![Dashboard Overview](https://github.com/CallmeNavin/P6_Retail-Site-Selection-Analytics/blob/main/Version%201/Visualization/Dashboard.png)
+
 _Explore more insights in the full Power BI dashboard_
 
 **B. Dataset Information**
